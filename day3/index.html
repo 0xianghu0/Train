@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人展示页</title>
+    <style>
+        .header{
+            background-color: rgb(255, 76, 79);
+            height: 70px;
+            padding: 10px 100px 10px 100px;
+        }
+
+        .header-left{
+            width: 50%;
+            float: left;
+        }
+
+        .header-right>ul>li{
+            float: right;
+            color: white;
+            list-style-type: none;
+            margin-right: 5px;
+        }
+
+        a{
+            color: white;
+        }
+
+        .header-right{
+            float: right;
+        }
+
+        .header img{
+            height: 20px;
+            width: 20px;
+        }
+
+        .header p{
+            color: white;
+            font-size: 20px;
+        }
+
+        .content{
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .content img{
+            height: 420px;
+            width: 260px;
+        }
+
+        .movie-box{
+            position: relative;
+        }
+
+        .content-movie{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 30px;
+        }
+
+        .movie{
+            background-color: #fef0ef;
+            display: flex;
+            margin: 10px 10px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .title{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: 5px solid rgba(255, 76, 79, 0.8);
+            margin: auto;
+            width: 180px;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .button{
+            background-color: rgb(129, 0, 20);
+            width: 100%;
+        }
+
+        .button-text{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-direction: row;
+            margin: 0 auto;
+        }
+
+        .button-text-left{
+            color: white;
+            font-size: 18px;
+            font-weight: bolder;
+            padding-top: 70px;
+            width: 350px;
+            text-align: left;
+        }
+
+        .button-text-right{
+            width: 20%;
+            margin-top: 30px;
+            margin-right: 75px;
+        }
+
+        .button-text-right img{
+            height: 150px;
+            width: 150px;
+        }
+
+        .copyright{
+            padding-top: 50px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <p><img src="logo.png" alt="">LZY的爱好</p>
+        </div>
+
+        <div class="header-right">
+            <ul>
+                <li><a href="#talk">聊一聊</a></li>
+                <li><a href="#book">喜欢的书</a></li>
+                <li><a href="#movies">喜欢的电影</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="movie-box">
+            <p id="movies" class="title">我喜欢的电影</p>
+                <div class="content-movie">
+                    <div class="movie">
+                    <img src="nezha.jpg" alt="">
+                    <p>哪吒之魔童降世</p>
+                </div>
+
+                <div class="movie">
+                    <img src="xiaoshenkedejiushu.jpg" alt="">
+                    <p>肖申克的救赎</p>
+                </div>
+
+                <div class="movie">
+                    <img src="lvpishu.jpg" alt="">
+                    <p>绿皮书</p>
+                </div>
+
+                <div class="movie">
+                    <img src="wobushiyaoshen.jpg" alt="">
+                    <p>我不是药神</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie-box">
+            <p id="book" class="title">我喜欢的书</p>
+                <div class="content-movie">
+                    <div class="movie">
+                    <img src="labixiaoxin.jpg" alt="">
+                    <p>蜡笔小新</p>
+                </div>
+
+                <div class="movie">
+                    <img src="feirenzai.jpg" alt="">
+                    <p>非人哉</p>
+                </div>
+
+                <div class="movie">
+                    <img src="wanshengjie.jpg" alt="">
+                    <p>万圣街</p>
+                </div>
+
+                <div class="movie">
+                    <img src="duolaameng.jpeg" alt="">
+                    <p>多啦A梦</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="talk" class="button">
+        <div class="button-text">
+            <div class="button-text-left">
+                <p>一个普通的二维码，你扫扫看，扫不了吃亏，扫不了上当。[doge]</p>
+            </div>
+
+            <div class="button-text-right">
+                <img src="code.png" alt="">
+            </div>
+        </div>
+
+        <div class="copyright">
+            版权所有&copy;LZY
+        </div>
+    </div>
+</body>
+</html>
