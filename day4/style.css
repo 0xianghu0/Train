@@ -1,0 +1,28 @@
+#container{
+    /*width:700px;*/
+    height:500px;
+    margin:50px 100px;
+    border:solid 2px #7a2a1d;
+}
+h1{
+    text-align:center;
+}
+.s_c{
+    width:500px;
+    margin:0 auto;
+}
+#message{
+    width:400px;
+    height:30px;
+    margin:0 auto;
+    position:relative;
+    left:50px;
+}
+.btn{
+    padding-top:20px;
+    height:30px;
+    margin-left:150px;
+}
+#sent,#clear{
+    width:100px;
+}
